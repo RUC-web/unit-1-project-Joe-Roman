@@ -4,9 +4,73 @@
   line-height: 1.5em;
 }
 
+.home-el {
+  height: 75vh;
+  background-image: url("city-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #96C87B;
+}
+
+.main-heading {
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #617A96;
+  font-weight: bold;
+}
+
+.subtext {
+  font-size: .8em;
+  margin: 0;
+  text-align: center;
+  font-family: "Arial";
+  text-transform: lowercase;
+  font-style: italic;
+  color: #377C67;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1em;
+    width: 100%;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+.nav-el ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    background-color: #BCC7D5;
+    box-shadow: 1px 1px 10px 10px rgba(60,90,123,0.75)
+}
+
+body {
+    margin: 0;
+}
+
+.img-el {
+  max-width: 100%;
+}
+
 @media only screen and (min-width: 600px){
 
-.book-text {max-width: 75vw;}
+.book-text {
+  max-width: 75vw;
+  text-align: center;
+  background-color: #BAD6CD;
+}
+
+.img-el {
+  max-width: 50%;
+  float: right;
+}
 
 h1, h2, h3, h4, h5, h6 {font-family: "Rubik", sans-serif;}
 
@@ -44,6 +108,11 @@ h6 {
 @media only screen and (min-width: 900px){
 
 .book-text {max-width: 50vw;}
+
+.img-el {
+  max-width: 50%;
+  float: right;
+}
 
 h1, h2, h3, h4, h5, h6 {font-family: "Rubik", sans-serif;}
 
