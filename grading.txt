@@ -1,0 +1,5 @@
+Issues found:
+No background on homepage body
+No padding on nav
+Open issues on repo
+Text element not correctly centered
